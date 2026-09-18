@@ -303,11 +303,11 @@
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img" style="background-image:url({{ asset('img/bg-img/10.jpg') }});"></div>
                         <div class="ve-insight-body">
-                            <span class="ve-insight-cat">Investment</span>
-                            <h5><a href="{{ route('post.show') }}">5 Smart Investment Strategies for 2025</a></h5>
-                            <p>Discover the top strategies seasoned investors are using to grow wealth in volatile markets.</p>
+                            <span class="ve-insight-cat">Développement</span>
+                            <h5><a href="{{ route('post.show') }}">Des solutions web adaptées à vos besoins</a></h5>
+                            <p>Nous concevons des applications et plateformes web modernes, performantes et adaptées aux besoins de votre entreprise.</p>
                             <div class="ve-insight-meta">
-                                <span><i class="fa fa-calendar"></i> April 26</span>
+                                <span><i class="fa fa-calendar"></i> 17 Septembre</span>
                                 <a href="{{ route('post.show') }}">Lire plus <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -317,11 +317,11 @@
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img" style="background-image:url({{ asset('img/bg-img/11.jpg') }});"></div>
                         <div class="ve-insight-body">
-                            <span class="ve-insight-cat">Credit</span>
-                            <h5><a href="{{ route('post.show') }}">Understanding Your Credit Score in 2025</a></h5>
-                            <p>Learn the key factors that influence your credit score and how to improve it fast.</p>
+                            <span class="ve-insight-cat">DIGITAL</span>
+                            <h5><a href="{{ route('post.show') }}">Accompagner les entreprises dans leur transformation numérique</a></h5>
+                            <p>HORINFO accompagne les organisations dans la modernisation de leurs outils et processus grâce aux technologies numériques.</p>
                             <div class="ve-insight-meta">
-                                <span><i class="fa fa-calendar"></i> April 20</span>
+                                <span><i class="fa fa-calendar"></i>17 Septembre</span>
                                 <a href="{{ route('post.show') }}">Lire plus <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -331,11 +331,11 @@
                     <div class="ve-insight-card">
                         <div class="ve-insight-img bg-img" style="background-image:url({{ asset('img/bg-img/12.jpg') }});"></div>
                         <div class="ve-insight-body">
-                            <span class="ve-insight-cat">Savings</span>
-                            <h5><a href="{{ route('post.show') }}">Building Wealth in Your 30s — A Full Guide</a></h5>
-                            <p>The financial habits and investment moves that set you up for lifelong prosperity.</p>
+                            <span class="ve-insight-cat">TECHNOLOGIE</span>
+                            <h5><a href="{{ route('post.show') }}">Des technologies au service de votre entreprise</a></h5>
+                            <p>Découvrez nos solutions informatiques pour améliorer votre productivité, votre organisation et votre présence numérique.</p>
                             <div class="ve-insight-meta">
-                                <span><i class="fa fa-calendar"></i> April 14</span>
+                                <span><i class="fa fa-calendar"></i> 17 Septembre</span>
                                 <a href="{{ route('post.show') }}">Lire plus <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -350,19 +350,17 @@
         <div class="container">
             <div class="ve-newsletter-wrap">
                 <div class="ve-nl-left">
-                    <i class="fa fa-envelope-o"></i>
+                    <i class="fa fa-map-marker"></i>
                     <div>
-                        <h3>Stay Ahead of the Markets</h3>
-                        <p>Weekly insights, tips, and exclusive offers — straight to your inbox.</p>
+                        <h3>Siège Social HORINFO</h3>
+                        <p>178 rue 30.131, Sanyiri, Ouagadougou, Burkina Faso</p>
                     </div>
                 </div>
-                <div class="ve-nl-right">
-                    <form class="ve-nl-form" action="#" method="post">
-                        <input type="email" placeholder="Enter your email address" required>
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
             </div>
+        </div>
+
+        <div class="ve-nl-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7794.971129965007!2d-1.4884694!3d12.3503733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ebf3fb567f817%3A0x2ae84c5d4e53f656!2sHORINFO!5e0!3m2!1sfr!2sbf!4v1789729238267!5m2!1sfr!2sbf" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
     </section>
 
@@ -374,49 +372,48 @@
                 <div class="col-12 col-sm-6 col-lg-4 mb-50">
                     <div class="ve-footer-brand">
                         <a href="{{ route('home') }}" class="ve-footer-logo">
-                            <span class="ve-logo-icon">V</span>
-                            <span class="ve-logo-text">Vault<strong>Edge</strong></span>
+                            <img src="{{ asset('img/bg-img/logo.png') }}" alt="HORINFO" class="ve-logo-img">
+                            <span class="ve-logo-text">HOR<strong>INFO</strong></span>
                         </a>
-                        <p>Empowering individuals and businesses with intelligent financial strategies since 2012.</p>
+                        <p>Des solutions informatiques sur mesure pour accompagner la transformation numérique des organisations depuis 1999.</p>
                         <div class="ve-social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
                             <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
                 <!-- Col 2: Quick Links -->
                 <div class="col-12 col-sm-6 col-lg-2 mb-50">
-                    <h5 class="ve-footer-title">Quick Links</h5>
+                    <h5 class="ve-footer-title">Liens rapides</h5>
                     <ul class="ve-footer-links">
-                        <li><a href="{{ route('home') }}">Home</a></li>
-                        <li><a href="{{ route('about') }}">About Us</a></li>
+                        <li><a href="{{ route('home') }}">Accueil</a></li>
+                        <li><a href="{{ route('about') }}">L'entreprise</a></li>
                         <li><a href="{{ route('services') }}">Services</a></li>
-                        <li><a href="{{ route('post.index') }}">Insights</a></li>
+                        <li><a href="{{ route('post.index') }}">Blog</a></li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
                     </ul>
                 </div>
                 <!-- Col 3: Services -->
                 <div class="col-12 col-sm-6 col-lg-3 mb-50">
-                    <h5 class="ve-footer-title">Our Services</h5>
-                    <ul class="ve-footer-links">
-                        <li><a href="#">Investment Planning</a></li>
-                        <li><a href="#">Wealth Management</a></li>
-                        <li><a href="#">Retirement Plans</a></li>
-                        <li><a href="#">Tax Advisory</a></li>
-                        <li><a href="#">Risk Management</a></li>
-                    </ul>
+                    <h5 class="ve-footer-title">Nos services</h5>
+                        <ul class="ve-footer-links">
+                            <li><a href="#">Développement mobile <br>et d'application web  </a></li>
+                            <li><a href="#">Développement CRM et <br>application métier</a></li>
+                            <li><a href="#">Développement de site web</a></li>
+                            <li><a href="#">Refonte web</a></li>
+                            <li><a href="#">Audits, études et conseils</a></li>
+                        </ul>
                 </div>
                 <!-- Col 4: Contact -->
                 <div class="col-12 col-sm-6 col-lg-3 mb-50">
-                    <h5 class="ve-footer-title">Get In Touch</h5>
-                    <ul class="ve-footer-contact">
-                        <li><i class="fa fa-map-marker"></i> 42 Harbor View, San Francisco, CA</li>
-                        <li><i class="fa fa-phone"></i> +1 800 555 0199</li>
-                        <li><i class="fa fa-envelope"></i> hello@vaultedge.com</li>
-                        <li><i class="fa fa-clock-o"></i> Mon–Fri, 9am – 6pm</li>
-                    </ul>
+                    <h5 class="ve-footer-title">Nous contacter</h5>
+                        <ul class="ve-footer-contact">
+                            <li><i class="fa fa-map-marker"></i> 178 rue 30.131, Sanyiri, Ouagadougou, Burkina Faso</li>
+                            <li><i class="fa fa-phone"></i> +226 61 60 15 15</li>
+                            <li><i class="fa fa-envelope"></i> contact@horinfo.bf</li>
+                            <li><i class="fa fa-clock-o"></i> Lun–Ven, 7h – 17h</li>
+                        </ul>
                 </div>
             </div>
         </div>
@@ -425,12 +422,7 @@
         <div class="ve-footer-bottom">
             <div class="container">
                 <div class="ve-footer-bottom-inner">
-                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> VaultEdge. All Rights Reserved <a href="https://github.com/Rabina-Vishwakarma/" class="text-white" target="_blank">Rabina Vishwakarma</a> • Distributed by <a href="https://themewagon.com" class="text-white" target="_blank">ThemeWagon</a></p>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                    </ul>
+                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> HORINFO. Tous droits réservés.</p>
                 </div>
             </div>
         </div>
