@@ -20,67 +20,7 @@
         <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
     </div>
 
-    <!-- ===== NAVBAR (single dark bar, logo left, nav center, CTA right) ===== -->
-    <header class="ve-header" id="ve-sticky">
-        <div class="container-fluid ve-nav-wrap">
-            <!-- Logo -->
-            <div class="ve-logo">
-                <a href="{{ route('home') }}">
-                    <img src="{{ asset('img/bg-img/logo.png') }}" alt="HORINFO" class="ve-logo-img">
-                    <span class="ve-logo-text">HOR<strong>INFO</strong></span>
-                </a>
-            </div>
-
-            <!-- Nav Links -->
-            <nav class="ve-nav">
-                <ul>
-                    <li><a href="{{ route('home') }}" class="active">Accueil</a></li>
-                    <li class="has-drop">
-                        <a href="{{ route('about') }}">Services <i class="fa fa-angle-down"></i></a>
-                        <ul class="ve-dropdown">
-                            <li><a href="{{ route('about') }}">Solutions</a></li>
-                            <li><a href="{{ route('services') }}">Our Services</a></li>
-                            <li><a href="{{ route('elements') }}">UI Elements</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ route('services') }}">projets</a></li>
-                    <li class="has-drop">
-                        <a href="#">Blog <i class="fa fa-angle-down"></i></a>
-                        <ul class="ve-dropdown">
-                            <li><a href="#">Management</a></li>
-                            <li><a href="#">Technologie</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Developpement</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ route('post.index') }}">l'entreprise</a></li>
-                    <li><a href="{{ route('contact') }}">Contact</a></li>
-                </ul>
-            </nav>
-
-            <!-- CTA -->
-            <div class="ve-nav-cta">
-                <a href="{{ route('contact') }}" class="ve-cta-btn">Prendre un rendez-vous<i class="fa fa-arrow-right"></i></a>
-            </div>
-
-            <!-- Mobile Toggle -->
-            <button class="ve-toggler" id="ve-toggle">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-
-        <!-- Mobile Menu -->
-        <div class="ve-mobile-menu" id="ve-mobile-menu">
-            <ul>
-                <li><a href="{{ route('home') }}">Home</a></li>
-                <li><a href="{{ route('about') }}">About</a></li>
-                <li><a href="{{ route('services') }}">Services</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="{{ route('post.index') }}">Insights</a></li>
-                <li><a href="{{ route('contact') }}">Contact</a></li>
-            </ul>
-        </div>
-    </header>
+    @include('partials.nav')
 
     <!-- ===== HERO: Split layout — left text, right image panel ===== -->
     <section class="ve-hero">
@@ -129,16 +69,24 @@
     <!-- ===== MARQUEE TRUST BAR ===== -->
     <div class="ve-trust-bar">
         <div class="ve-trust-inner">
-            <span><i class="fa fa-shield"></i> Bank-Grade Security</span>
-            <span><i class="fa fa-check-circle"></i> SEC Registered</span>
-            <span><i class="fa fa-users"></i> 50,000+ Clients Worldwide</span>
-            <span><i class="fa fa-lock"></i> 256-bit Encryption</span>
-            <span><i class="fa fa-trophy"></i> Award Winning Advisory</span>
-            <span><i class="fa fa-globe"></i> 30+ Countries Served</span>
-            <span><i class="fa fa-shield"></i> Bank-Grade Security</span>
-            <span><i class="fa fa-check-circle"></i> SEC Registered</span>
-            <span><i class="fa fa-users"></i> 50,000+ Clients Worldwide</span>
-            <span><i class="fa fa-lock"></i> 256-bit Encryption</span>
+            <span><i class="fa fa-code"></i> Développement d'application web et mobile</span>
+            <span><i class="fa fa-cogs"></i> Développement CRM et application métier</span>
+            <span><i class="fa fa-globe"></i> Développement de site web</span>
+            <span><i class="fa fa-bullhorn"></i> Marketing digital</span>
+            <span><i class="fa fa-refresh"></i> Refonte web</span>
+            <span><i class="fa fa-graduation-cap"></i> Formations</span>
+            <span><i class="fa fa-search"></i> Audits, études et conseils</span>
+            <span><i class="fa fa-calendar"></i> Évènementiel</span>
+            <span><i class="fa fa-wrench"></i> Assistance technique</span>
+            <span><i class="fa fa-code"></i> Développement d'application web et mobile</span>
+            <span><i class="fa fa-cogs"></i> Développement CRM et application métier</span>
+            <span><i class="fa fa-globe"></i> Développement de site web</span>
+            <span><i class="fa fa-bullhorn"></i> Marketing digital</span>
+            <span><i class="fa fa-refresh"></i> Refonte web</span>
+            <span><i class="fa fa-graduation-cap"></i> Formations</span>
+            <span><i class="fa fa-search"></i> Audits, études et conseils</span>
+            <span><i class="fa fa-calendar"></i> Évènementiel</span>
+            <span><i class="fa fa-wrench"></i> Assistance technique</span>
         </div>
     </div>
 
@@ -364,69 +312,7 @@
         </div>
     </section>
 
-    <!-- ===== FOOTER (dark, 4-column) ===== -->
-    <footer class="ve-footer">
-        <div class="container">
-            <div class="row">
-                <!-- Col 1: Brand -->
-                <div class="col-12 col-sm-6 col-lg-4 mb-50">
-                    <div class="ve-footer-brand">
-                        <a href="{{ route('home') }}" class="ve-footer-logo">
-                            <img src="{{ asset('img/bg-img/logo.png') }}" alt="HORINFO" class="ve-logo-img">
-                            <span class="ve-logo-text">HOR<strong>INFO</strong></span>
-                        </a>
-                        <p>Des solutions informatiques sur mesure pour accompagner la transformation numérique des organisations depuis 1999.</p>
-                        <div class="ve-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-youtube"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Col 2: Quick Links -->
-                <div class="col-12 col-sm-6 col-lg-2 mb-50">
-                    <h5 class="ve-footer-title">Liens rapides</h5>
-                    <ul class="ve-footer-links">
-                        <li><a href="{{ route('home') }}">Accueil</a></li>
-                        <li><a href="{{ route('about') }}">L'entreprise</a></li>
-                        <li><a href="{{ route('services') }}">Services</a></li>
-                        <li><a href="{{ route('post.index') }}">Blog</a></li>
-                        <li><a href="{{ route('contact') }}">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- Col 3: Services -->
-                <div class="col-12 col-sm-6 col-lg-3 mb-50">
-                    <h5 class="ve-footer-title">Nos services</h5>
-                        <ul class="ve-footer-links">
-                            <li><a href="#">Développement mobile <br>et d'application web  </a></li>
-                            <li><a href="#">Développement CRM et <br>application métier</a></li>
-                            <li><a href="#">Développement de site web</a></li>
-                            <li><a href="#">Refonte web</a></li>
-                            <li><a href="#">Audits, études et conseils</a></li>
-                        </ul>
-                </div>
-                <!-- Col 4: Contact -->
-                <div class="col-12 col-sm-6 col-lg-3 mb-50">
-                    <h5 class="ve-footer-title">Nous contacter</h5>
-                        <ul class="ve-footer-contact">
-                            <li><i class="fa fa-map-marker"></i> 178 rue 30.131, Sanyiri, Ouagadougou, Burkina Faso</li>
-                            <li><i class="fa fa-phone"></i> +226 61 60 15 15</li>
-                            <li><i class="fa fa-envelope"></i> contact@horinfo.bf</li>
-                            <li><i class="fa fa-clock-o"></i> Lun–Ven, 7h – 17h</li>
-                        </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer Bottom Bar -->
-        <div class="ve-footer-bottom">
-            <div class="container">
-                <div class="ve-footer-bottom-inner">
-                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> HORINFO. Tous droits réservés.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    @include('partials.footer')
 
     <!-- Scripts -->
     <script src="{{ asset('js/jquery/jquery-2.2.4.min.js') }}"></script>

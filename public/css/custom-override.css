@@ -196,7 +196,7 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Poppins', sans-serif; color: var(--ve-dark); }
 }
 .ve-trust-inner {
   display:inline-flex; gap:60px;
-  animation: ve-marquee 25s linear infinite;
+  animation: ve-marquee 45s linear infinite;
 }
 .ve-trust-inner span { font-size:13px; font-weight:700; color:#fff; display:inline-flex; align-items:center; gap:8px; }
 .ve-trust-inner span i { font-size:14px; color:var(--ve-gold); }
