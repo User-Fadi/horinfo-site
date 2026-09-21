@@ -92,9 +92,9 @@
     <section class="ve-section ve-team-section">
         <div class="container">
             <div class="ve-section-header text-center">
-                <span class="ve-section-tag">Meet the Experts</span>
-                <h2>Our Leadership <span>Team</span></h2>
-                <p>Seasoned professionals with decades of combined experience across global financial markets.</p>
+                <span class="ve-section-tag">Notre équipe</span>
+                <h2>Notre équipe de <span>direction</span></h2>
+                <p>Des professionnels expérimentés, unis par une même exigence de qualité au service de vos projets numériques.</p>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay="100ms">

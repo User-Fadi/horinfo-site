@@ -21,7 +21,7 @@
         <div class="ve-page-hero-overlay"></div>
         <div class="container ve-page-hero-content">
             <span class="ve-section-tag">Blog</span><h1>Blog <span>Horinfo</span></h1>
-            <nav aria-label="breadcrumb"><ol class="ve-breadcrumb"><li><a href="{{ route('home') }}">Home</a></li><li class="active">Insights</li></ol></nav>
+            <nav aria-label="breadcrumb"><ol class="ve-breadcrumb"><li><a href="{{ route('home') }}">Accueil</a></li><li class="active">Blog</li></ol></nav>
         </div>
     </section>
 

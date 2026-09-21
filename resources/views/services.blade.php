@@ -22,7 +22,7 @@
         <div class="container ve-page-hero-content">
             <span class="ve-section-tag">Ce que nous offrons</span>
             <h1>Des solutions <span>numériques complètes</span></h1>
-            <nav aria-label="breadcrumb"><ol class="ve-breadcrumb"><li><a href="{{ route('home') }}">Home</a></li><li class="active">Services</li></ol></nav>
+            <nav aria-label="breadcrumb"><ol class="ve-breadcrumb"><li><a href="{{ route('home') }}">Accueil</a></li><li class="active">Services</li></ol></nav>
         </div>
     </section>
 
