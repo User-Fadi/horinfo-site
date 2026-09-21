@@ -20,18 +20,18 @@
     <section class="ve-page-hero" style="background-image:url({{ asset('img/bg-img/22.jpg') }});">
         <div class="ve-page-hero-overlay"></div>
         <div class="container ve-page-hero-content">
-            <span class="ve-section-tag">Get In Touch</span>
-            <h1>We'd Love to <span>Hear From You</span></h1>
-            <nav aria-label="breadcrumb"><ol class="ve-breadcrumb"><li><a href="{{ route('home') }}">Home</a></li><li class="active">Contact</li></ol></nav>
+            <span class="ve-section-tag">Contactez-nous</span>
+            <h1>Nous serions ravis de <span>vous écouter</span></h1>
+            <nav aria-label="breadcrumb"><ol class="ve-breadcrumb"><li><a href="{{ route('home') }}">Accueil</a></li><li class="active">Contact</li></ol></nav>
         </div>
     </section>
 
     <section class="ve-contact-cards-section">
         <div class="container">
             <div class="ve-contact-cards-grid">
-                <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="100ms"><div class="ve-ci-icon"><i class="fa fa-map-marker"></i></div><h5>Visit Our Office</h5><p>42 Harbor View, San Francisco, CA 94105</p></div>
-                <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="250ms"><div class="ve-ci-icon"><i class="fa fa-phone"></i></div><h5>Call Us</h5><p>+1 800 555 0199<br><small>Mon–Fri, 9am – 6pm PST</small></p></div>
-                <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="400ms"><div class="ve-ci-icon"><i class="fa fa-envelope"></i></div><h5>Email Us</h5><p>hello@vaultedge.com<br><small>We reply within 24 hours</small></p></div>
+                <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="100ms"><div class="ve-ci-icon"><i class="fa fa-map-marker"></i></div><h5>Notre bureau</h5><p>178 rue 30.131, Sanyiri, Ouagadougou, Burkina Faso</p></div>
+                <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="250ms"><div class="ve-ci-icon"><i class="fa fa-phone"></i></div><h5>Appelez-nous</h5><p>+226 61 60 15 15<br><small>Lun–Ven, 8h – 17h</small></p></div>
+                <div class="ve-contact-info-card wow fadeInUp" data-wow-delay="400ms"><div class="ve-ci-icon"><i class="fa fa-envelope"></i></div><h5>Écrivez-nous</h5><p>contact@horinfo.bf<br><small>Réponse sous 24h</small></p></div>
             </div>
         </div>
     </section>
@@ -41,52 +41,51 @@
             <div class="row">
                 <div class="col-12 col-lg-7 wow fadeInLeft" data-wow-delay="100ms">
                     <div class="ve-contact-form-wrap">
-                        <span class="ve-section-tag">Send a Message</span>
-                        <h2>Book a <span>Free Consultation</span></h2>
-                        <p>Fill in the form and one of our advisors will contact you within one business day.</p>
+                        <span class="ve-section-tag">Envoyez-nous un message</span>
+                        <h2>Demandez un <span>devis gratuit</span></h2>
+                        <p>Remplissez le formulaire et un membre de notre équipe vous recontactera sous un jour ouvré.</p>
                         <form class="ve-contact-form" action="#" method="post">
                             <div class="ve-form-row">
-                                <div class="ve-form-group"><label>Full Name</label><input type="text" placeholder="Your full name" required></div>
-                                <div class="ve-form-group"><label>Email Address</label><input type="email" placeholder="Your email" required></div>
+                                <div class="ve-form-group"><label>Nom complet</label><input type="text" placeholder="Votre nom complet" required></div>
+                                <div class="ve-form-group"><label>Adresse email</label><input type="email" placeholder="Votre email" required></div>
                             </div>
                             <div class="ve-form-row">
-                                <div class="ve-form-group"><label>Phone Number</label><input type="tel" placeholder="Your phone"></div>
-                                <div class="ve-form-group"><label>Service Interested In</label>
-                                    <select><option>Select a service</option><option>Investment Planning</option><option>Wealth Management</option><option>Retirement Planning</option><option>Tax Advisory</option><option>Risk Management</option></select>
+                                <div class="ve-form-group"><label>Numéro de téléphone</label><input type="tel" placeholder="Votre téléphone"></div>
+                                <div class="ve-form-group"><label>Service concerné</label>
+                                    <select><option>Sélectionnez un service</option><option>Développement web/mobile</option><option>CRM et application métier</option><option>Refonte web</option><option>Marketing digital</option><option>Formations</option><option>Audits, études et conseils</option><option>Assistance technique</option></select>
                                 </div>
                             </div>
-                            <div class="ve-form-group"><label>Your Message</label><textarea rows="5" placeholder="Tell us about your financial goals..."></textarea></div>
-                            <button type="submit" class="ve-btn-primary">Send Message <i class="fa fa-paper-plane"></i></button>
+                            <div class="ve-form-group"><label>Votre message</label><textarea rows="5" placeholder="Décrivez votre projet ou besoin..."></textarea></div>
+                            <button type="submit" class="ve-btn-primary">Envoyer le message <i class="fa fa-paper-plane"></i></button>
                         </form>
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 wow fadeInRight" data-wow-delay="200ms">
                     <div class="ve-contact-aside">
                         <div class="ve-ca-box">
-                            <h4>Why Clients Choose Us</h4>
+                            <h4>Pourquoi choisir HORINFO</h4>
                             <ul class="ve-ca-list">
-                                <li><i class="fa fa-check-circle"></i> Free initial consultation</li>
-                                <li><i class="fa fa-check-circle"></i> Response within 24 hours</li>
-                                <li><i class="fa fa-check-circle"></i> No sales pressure — ever</li>
-                                <li><i class="fa fa-check-circle"></i> Certified financial planners</li>
-                                <li><i class="fa fa-check-circle"></i> Fiduciary standard of care</li>
+                                <li><i class="fa fa-check-circle"></i> Premier échange gratuit</li>
+                                <li><i class="fa fa-check-circle"></i> Réponse sous 24 heures</li>
+                                <li><i class="fa fa-check-circle"></i> Aucune pression commerciale</li>
+                                <li><i class="fa fa-check-circle"></i> Plus de 25 ans d'expertise IT</li>
+                                <li><i class="fa fa-check-circle"></i> Partenaire d'institutions internationales</li>
                             </ul>
                         </div>
                         <div class="ve-ca-hours">
-                            <h5><i class="fa fa-clock-o"></i> Office Hours</h5>
+                            <h5><i class="fa fa-clock-o"></i> Horaires d'ouverture</h5>
                             <ul>
-                                <li><span>Monday – Friday</span><strong>9:00 AM – 6:00 PM</strong></li>
-                                <li><span>Saturday</span><strong>10:00 AM – 2:00 PM</strong></li>
-                                <li><span>Sunday</span><strong>Closed</strong></li>
+                                <li><span>Lundi – Vendredi</span><strong>8h00 – 17h00</strong></li>
+                                <li><span>Samedi</span><strong>Fermé</strong></li>
+                                <li><span>Dimanche</span><strong>Fermé</strong></li>
                             </ul>
                         </div>
                         <div class="ve-ca-social">
-                            <h5>Connect With Us</h5>
+                            <h5>Suivez-nous</h5>
                             <div class="ve-social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-youtube"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
