@@ -20,12 +20,12 @@
     <section class="ve-page-hero" style="background-image:url({{ asset('img/bg-img/13.jpg') }});">
         <div class="ve-page-hero-overlay"></div>
         <div class="container ve-page-hero-content">
-            <span class="ve-section-tag">Our Story</span>
-            <h1>Building Trust Since <span>2012</span></h1>
+            <span class="ve-section-tag">Notre histoire</span>
+            <h1>Au service du numérique depuis <span>1999</span></h1>
             <nav aria-label="breadcrumb">
                 <ol class="ve-breadcrumb">
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li class="active">About Us</li>
+                    <li><a href="{{ route('home') }}">Accueil</a></li>
+                    <li class="active">A propos</li>
                 </ol>
             </nav>
         </div>
@@ -39,22 +39,22 @@
                     <div class="ve-about-img-stack">
                         <div class="ve-about-img-1 bg-img" style="background-image:url({{ asset('img/bg-img/14.jpg') }});"></div>
                         <div class="ve-about-img-2 bg-img" style="background-image:url({{ asset('img/bg-img/5.jpg') }});"></div>
-                        <div class="ve-about-ribbon"><strong>12+</strong><span>Years of Trust</span></div>
+                        <div class="ve-about-ribbon"><strong>25+</strong><span>Ans d'expertise</span></div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 wow fadeInRight" data-wow-delay="200ms">
                     <div class="ve-about-text">
-                        <span class="ve-section-tag">Who We Are</span>
-                        <h2>A Firm Built on <span>Integrity</span> &amp; Results</h2>
-                        <p class="ve-lead">We are a team of certified financial advisors and analysts dedicated to helping individuals and businesses achieve financial clarity and long-term prosperity.</p>
-                        <p>Founded in San Francisco in 2012, VaultEdge started with a single mission: make professional wealth management accessible to everyone. Today, we manage over $4.2 billion in assets across 30+ countries.</p>
+                        <span class="ve-section-tag">Qui sommes-nous</span>
+                        <h2>Une entreprise bâtie sur l'<span>Expertise</span> et la Confiance</h2>
+                        <p class="ve-lead">Nous sommes une équipe d'ingénieurs, de consultants et de spécialistes du numérique dédiée à accompagner la transformation digitale des organisations en Afrique de l'Ouest.</p>
+                        <p>Fondée à Ouagadougou en 1999, HORINFO a commencé avec une mission simple : rendre les technologies de l'information accessibles et fiables pour les institutions et entreprises locales. Aujourd'hui, nous accompagnons des organisations internationales telles que la Banque mondiale, le PNUD, l'Union européenne et l'USAID.</p>
                         <div class="ve-about-features">
-                            <div class="ve-af-item"><i class="fa fa-check"></i><span>Certified Financial Planners (CFP)</span></div>
-                            <div class="ve-af-item"><i class="fa fa-check"></i><span>SEC Registered Investment Advisor</span></div>
-                            <div class="ve-af-item"><i class="fa fa-check"></i><span>Fiduciary — we always act in your interest</span></div>
-                            <div class="ve-af-item"><i class="fa fa-check"></i><span>No conflict-of-interest products</span></div>
+                            <div class="ve-af-item"><i class="fa fa-check"></i><span>Plus de 25 ans d'expertise IT en Afrique de l'Ouest</span></div>
+                            <div class="ve-af-item"><i class="fa fa-check"></i><span>Partenaire de confiance d'institutions internationales</span></div>
+                            <div class="ve-af-item"><i class="fa fa-check"></i><span>Équipe pluridisciplinaire : développement, marketing, conseil, formation</span></div>
+                            <div class="ve-af-item"><i class="fa fa-check"></i><span>Approche sur mesure, adaptée à chaque client</span></div>
                         </div>
-                        <a href="{{ route('services') }}" class="ve-btn-primary mt-30">View Our Services</a>
+                        <a href="{{ route('services') }}" class="ve-btn-primary mt-30">Voir nos Services</a>
                     </div>
                 </div>
             </div>
@@ -65,24 +65,24 @@
     <section class="ve-mvv-section">
         <div class="container">
             <div class="ve-section-header text-center">
-                <span class="ve-section-tag">Our Foundation</span>
-                <h2>Mission, Vision &amp; <span>Values</span></h2>
+                <span class="ve-section-tag">Notre Foundation</span>
+                <h2>Mission, Vision &amp; <span>Valeurs</span></h2>
             </div>
             <div class="ve-mvv-grid">
                 <div class="ve-mvv-card wow fadeInUp" data-wow-delay="100ms">
                     <div class="ve-mvv-icon"><i class="fa fa-bullseye"></i></div>
-                    <h4>Our Mission</h4>
-                    <p>To democratise access to world-class financial planning, empowering every client to make smarter money decisions with confidence.</p>
+                    <h4>Notre Mission</h4>
+                    <p>Démocratiser l'accès à des solutions numériques fiables et sur mesure, pour accompagner la croissance des organisations que nous servons.</p>
                 </div>
                 <div class="ve-mvv-card wow fadeInUp" data-wow-delay="250ms">
                     <div class="ve-mvv-icon"><i class="fa fa-eye"></i></div>
-                    <h4>Our Vision</h4>
-                    <p>To be the most trusted financial partner for the next generation of wealth builders — globally recognised for integrity and innovation.</p>
+                    <h4>Notre Vision</h4>
+                    <p>Devenir la référence des services IT en Afrique de l'Ouest, reconnue pour son exigence technique et son engagement client.</p>
                 </div>
                 <div class="ve-mvv-card wow fadeInUp" data-wow-delay="400ms">
                     <div class="ve-mvv-icon"><i class="fa fa-heart"></i></div>
-                    <h4>Our Values</h4>
-                    <p>Transparency, client-first thinking, continuous innovation, and an unwavering commitment to ethical financial practice.</p>
+                    <h4>Nos Valeurs</h4>
+                    <p>Rigueur, proximité client, innovation continue, transparence.</p>
                 </div>
             </div>
         </div>

@@ -14,16 +14,15 @@
                 <ul>
                     <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Accueil</a></li>
                     <li class="has-drop">
-                        <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">Services <i class="fa fa-angle-down"></i></a>
+                        <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">L'entreprise <i class="fa fa-angle-down"></i></a>
                         <ul class="ve-dropdown">
-                            <li><a href="{{ route('about') }}">Solutions</a></li>
-                            <li><a href="{{ route('services') }}">Our Services</a></li>
-                            <li><a href="{{ route('elements') }}">UI Elements</a></li>
+                            <li><a href="{{ route('about') }}">A propos de nous</a></li>
+                            <li><a href="{{ route('services') }}">Nos Services</a></li>
                         </ul>
                     </li>
-                    <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">projets</a></li>
+                    <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
                     <li class="has-drop">
-                        <a href="#">Blog <i class="fa fa-angle-down"></i></a>
+                        <a href="#">Solutions <i class="fa fa-angle-down"></i></a>
                         <ul class="ve-dropdown">
                             <li><a href="#">Management</a></li>
                             <li><a href="#">Technologie</a></li>
@@ -31,7 +30,7 @@
                             <li><a href="#">Developpement</a></li>
                         </ul>
                     </li>
-                    <li><a href="{{ route('post.index') }}" class="{{ request()->routeIs('post.index') ? 'active' : '' }}">l'entreprise</a></li>
+                    <li><a href="{{ route('post.index') }}" class="{{ request()->routeIs('post.index') ? 'active' : '' }}">Blog</a></li>
                     <li><a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a></li>
                 </ul>
             </nav>

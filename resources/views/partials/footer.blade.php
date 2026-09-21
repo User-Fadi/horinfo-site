@@ -46,7 +46,7 @@
                             <li><i class="fa fa-map-marker"></i> 178 rue 30.131, Sanyiri, Ouagadougou, Burkina Faso</li>
                             <li><i class="fa fa-phone"></i> +226 61 60 15 15</li>
                             <li><i class="fa fa-envelope"></i> contact@horinfo.bf</li>
-                            <li><i class="fa fa-clock-o"></i> Lun–Ven, 7h – 17h</li>
+                            <li><i class="fa fa-clock-o"></i> Lun–Ven, 8h – 17h</li>
                         </ul>
                 </div>
             </div>
