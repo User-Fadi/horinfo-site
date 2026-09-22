@@ -24,6 +24,7 @@
                         <li><a href="{{ route('home') }}">Accueil</a></li>
                         <li><a href="{{ route('about') }}">L'entreprise</a></li>
                         <li><a href="{{ route('services') }}">Services</a></li>
+                        <li><a href="{{ route('solutions') }}">Solutions</a></li>
                         <li><a href="{{ route('post.index') }}">Blog</a></li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
                     </ul>

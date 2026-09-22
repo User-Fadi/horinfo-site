@@ -22,7 +22,7 @@
                     </li>
                     <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
                     <li class="has-drop">
-                        <a href="#">Solutions <i class="fa fa-angle-down"></i></a>
+                        <a href="{{ route('solutions') }}" class="{{ request()->routeIs('solutions') ? 'active' : '' }}"">Solutions <i class="fa fa-angle-down"></i></a>
                         <ul class="ve-dropdown">
                             <li><a href="#">Management</a></li>
                             <li><a href="#">Technologie</a></li>
