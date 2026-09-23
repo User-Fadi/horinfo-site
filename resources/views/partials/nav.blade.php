@@ -21,14 +21,8 @@
                         </ul>
                     </li>
                     <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
-                    <li class="has-drop">
-                        <a href="{{ route('solutions') }}" class="{{ request()->routeIs('solutions') ? 'active' : '' }}"">Solutions <i class="fa fa-angle-down"></i></a>
-                        <ul class="ve-dropdown">
-                            <li><a href="#">Management</a></li>
-                            <li><a href="#">Technologie</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Developpement</a></li>
-                        </ul>
+                    <li>
+                        <a href="{{ route('solutions') }}" class="{{ request()->routeIs('solutions') ? 'active' : '' }}">Solutions </i></a>
                     </li>
                     <li><a href="{{ route('post.index') }}" class="{{ request()->routeIs('post.index') ? 'active' : '' }}">Blog</a></li>
                     <li><a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a></li>

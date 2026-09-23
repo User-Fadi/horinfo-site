@@ -26,7 +26,7 @@
     <section class="ve-hero">
         <!-- Left Panel -->
         <div class="ve-hero-left">
-            <span class="ve-hero-badge">Partenaire IT &nbsp;·&nbsp; Depuis 1999</span>
+            <span class="ve-hero-badge">Solutions digitales depuis<span class="an"> 1999 </span></span>
             <h1>Tansformez vos idées en <br><span class="ve-highlight">réalité numérique</span></h1>
             <p>Solutios logiciellles sur mesure, plateformes web innovantes et stratégie digitale pour propulser votre entreprise. Expertise africaine, stanqarts internationaux.</p>
             <div class="ve-hero-btns">
@@ -55,14 +55,6 @@
         <div class="ve-hero-right">
             <div class="ve-hero-img-main bg-img" style="background-image:url({{ asset('img/bg-img/Image\ 1.png') }});"></div>
             <div class="ve-hero-img-accent bg-img" style="background-image:url({{ asset('img/bg-img/3.jpg') }});"></div>
-            <!-- Floating card -->
-            <div class="ve-float-card">
-                <i class="fa fa-line-chart"></i>
-                <div>
-                    <strong>+18.4%</strong>
-                    <span>Annual Returns</span>
-                </div>
-            </div>
         </div>
     </section>
 
