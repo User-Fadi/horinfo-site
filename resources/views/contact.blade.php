@@ -94,6 +94,10 @@
         </div>
     </section>
 
+    <div class="ve-nl-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7794.971129965007!2d-1.4884694!3d12.3503733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ebf3fb567f817%3A0x2ae84c5d4e53f656!2sHORINFO!5e0!3m2!1sfr!2sbf!4v1789729238267!5m2!1sfr!2sbf" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+
     @include('partials.footer')
 
     <script src="{{ asset('js/jquery/jquery-2.2.4.min.js') }}"></script>

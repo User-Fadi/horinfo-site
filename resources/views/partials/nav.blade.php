@@ -13,17 +13,13 @@
             <nav class="ve-nav">
                 <ul>
                     <li><a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Accueil</a></li>
-                    <li class="has-drop">
-                        <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">L'entreprise <i class="fa fa-angle-down"></i></a>
-                        <ul class="ve-dropdown">
-                            <li><a href="{{ route('about') }}">A propos de nous</a></li>
-                            <li><a href="{{ route('services') }}">Nos Services</a></li>
-                        </ul>
+                    <li>
+                        <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">L'entreprise </i></a>
                     </li>
-                    <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
                     <li>
                         <a href="{{ route('solutions') }}" class="{{ request()->routeIs('solutions') ? 'active' : '' }}">Solutions </i></a>
                     </li>
+                    <li><a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
                     <li><a href="{{ route('post.index') }}" class="{{ request()->routeIs('post.index') ? 'active' : '' }}">Blog</a></li>
                     <li><a href="{{ route('contact') }}" class="{{ request()->routeIs('contact') ? 'active' : '' }}">Contact</a></li>
                 </ul>
@@ -31,7 +27,7 @@
 
             <!-- CTA -->
             <div class="ve-nav-cta">
-                <a href="{{ route('contact') }}" class="ve-cta-btn">Prendre un rendez-vous<i class="fa fa-arrow-right"></i></a>
+                <a href="{{ route('contact') }}" class="ve-cta-btn">Prendre un rendez-vous</i></a>
             </div>
 
             <!-- Mobile Toggle -->
@@ -41,14 +37,31 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div class="ve-mobile-menu" id="ve-mobile-menu">
-            <ul>
-                <li><a href="{{ route('home') }}">Home</a></li>
-                <li><a href="{{ route('about') }}">About</a></li>
-                <li><a href="{{ route('services') }}">Services</a></li>
-                <li><a href="#">Solutions</a></li>
-                <li><a href="{{ route('post.index') }}">Insights</a></li>
-                <li><a href="{{ route('contact') }}">Contact</a></li>
-            </ul>
-        </div>
+<div class="ve-mobile-menu" id="ve-mobile-menu">
+    <ul>
+        <li>
+            <a href="{{ route('home') }}">Accueil</a>
+        </li>
+
+        <li>
+            <a href="{{ route('about') }}">L'entreprise</a>
+        </li>
+
+        <li>
+            <a href="{{ route('solutions') }}">Solutions</a>
+        </li>
+
+        <li>
+            <a href="{{ route('services') }}">Services</a>
+        </li>
+
+        <li>
+            <a href="{{ route('post.index') }}">Blog</a>
+        </li>
+
+        <li>
+            <a href="{{ route('contact') }}">Contact</a>
+        </li>
+    </ul>
+</div>
     </header>

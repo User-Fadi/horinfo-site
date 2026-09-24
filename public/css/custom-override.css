@@ -196,6 +196,257 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Poppins', sans-serif; color: var(--ve-dark); }
 .ve-float-card strong { display:block; font-size:22px; font-family:'Poppins',sans-serif; font-weight:900; color:var(--ve-dark); }
 .ve-float-card span { font-size:12px; color:var(--ve-text); }
 
+/*modal*/
+
+/* =====================================================
+   MODAL CONTACT
+   ===================================================== */
+
+#contactModal .modal-dialog {
+    width: 700px;
+    max-width: calc(100% - 30px);
+    margin: 90px auto 20px;
+}
+
+#contactModal .modal-content {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    max-height: calc(100vh - 110px);
+}
+
+/* =====================================================
+   EN-TÊTE
+   ===================================================== */
+
+#contactModal .modal-header {
+    padding: 18px 25px 8px;
+    border-bottom: none;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+    flex-shrink: 0;
+    position: relative;
+    justify-content: center;
+}
+#contactModal {
+    font-family: 'Poppins', sans-serif;
+}
+
+#contactModal .modal-title {
+    margin: 5px 0 0;
+    color: #002045;
+    
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+
+#contactModal .close {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    position: absolute;
+    right: 25px;
+    top: 18px;
+}
+/* =====================================================
+   CORPS DU MODAL
+   ===================================================== */
+
+#contactModal .modal-body {
+    padding: 5px 25px 20px;
+    overflow-y: auto;
+}
+
+/* =====================================================
+   FORMULAIRE
+   ===================================================== */
+
+#contactModal .ve-form-group {
+    margin-bottom: 12px;
+}
+
+#contactModal .ve-form-group label {
+    display: block;
+    margin-bottom: 4px;
+    color: #002045;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#contactModal .ve-form-group input,
+#contactModal .ve-form-group select,
+#contactModal .ve-form-group textarea {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 13px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#contactModal .ve-form-group input:focus,
+#contactModal .ve-form-group select:focus,
+#contactModal .ve-form-group textarea:focus {
+    border-color: #00677c;
+}
+
+#contactModal .ve-form-group textarea {
+    height: 85px;
+    resize: none;
+}
+
+/* Deux champs côte à côte */
+#contactModal .ve-form-row {
+    display: flex;
+    gap: 15px;
+}
+
+#contactModal .ve-form-row .ve-form-group {
+    flex: 1;
+}
+
+/* =====================================================
+   BOUTON
+   ===================================================== */
+
+#contactModal .ve-btn-primary {
+    width: 100%;
+    padding: 10px 18px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+/* =====================================================
+   TABLETTE
+   ===================================================== */
+
+@media (max-width: 991px) {
+
+    #contactModal .modal-dialog {
+        width: 650px;
+        max-width: calc(100% - 30px);
+        margin-top: 90px;
+    }
+
+    #contactModal .modal-content {
+        max-height: calc(100vh - 110px);
+    }
+}
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    #contactModal .modal-dialog {
+        width: calc(100% - 20px);
+        max-width: none;
+        margin: 100px auto 15px;
+    }
+
+    #contactModal .modal-content {
+        max-height: calc(100vh - 115px);
+        border-radius: 10px;
+    }
+
+    /* Header */
+    #contactModal .modal-header {
+        padding: 15px 18px 8px;
+    }
+
+#contactModal .modal-title {
+    margin: 5px 0 0;
+    color: #002045;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+
+    #contactModal .ve-section-tag {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    #contactModal .close {
+        font-size: 22px;
+    }
+
+    /* Corps */
+    #contactModal .modal-body {
+        padding: 5px 18px 18px;
+    }
+
+    /* Une colonne sur téléphone */
+    #contactModal .ve-form-row {
+        display: block;
+    }
+
+    #contactModal .ve-form-group {
+        margin-bottom: 10px;
+    }
+
+    #contactModal .ve-form-group label {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    #contactModal .ve-form-group input,
+    #contactModal .ve-form-group select {
+        padding: 8px 10px;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    #contactModal .ve-form-group textarea {
+        height: 75px;
+        font-size: 16px;
+    }
+
+    #contactModal .ve-btn-primary {
+        padding: 9px 15px;
+        font-size: 16px;
+    }
+}
+
+/* =====================================================
+   TRÈS PETITS TÉLÉPHONES
+   ===================================================== */
+
+@media (max-width: 400px) {
+
+    #contactModal .modal-dialog {
+        width: calc(100% - 10px);
+        margin: 95px auto 10px;
+    }
+
+    #contactModal .modal-content {
+        max-height: calc(100vh - 105px);
+    }
+
+    #contactModal .modal-header {
+        padding: 12px 15px 6px;
+    }
+
+    #contactModal .modal-body {
+        padding: 4px 15px 15px;
+    }
+
+    #contactModal .modal-title {
+        font-size: 18px;
+    }
+
+    #contactModal .ve-section-tag {
+        font-size: 16px;
+    }
+}
+
 /* ============================================================
    TRUST BAR
    ============================================================ */
@@ -874,7 +1125,7 @@ body { padding-top:0; }
 /* Why us section */
 .ve-whyus-section { background: linear-gradient(180deg, #ffffff 0%, var(--ve-sky-soft) 15%, #ffffff 100%); }
 .ve-whyus-img-wrap { position:relative; padding-bottom:40px; padding-right:40px; }
-.ve-whyus-img-main { height:480px; border-radius:16px; background-size:cover; background-position:center; }
+.ve-whyus-img-main { height:430px; border-radius:16px; background-size:cover; background-position:center; }
 .ve-whyus-badge { position:absolute; bottom:0; right:0; background:var(--ve-gold); border-radius:14px; padding:22px 28px; text-align:center; min-width:160px; }
 .ve-whyus-badge strong { display:block; font-size:40px; font-family:'Poppins',sans-serif; font-weight:900; color:var(--ve-dark); }
 .ve-whyus-badge span { font-size:12px; font-weight:600; color:var(--ve-dark); opacity:0.7; text-transform:uppercase; letter-spacing:0.8px; }
@@ -916,3 +1167,370 @@ body { padding-top:0; }
 .ve-partner-card:hover { transform:translateY(-4px); box-shadow:0 12px 30px rgba(15,23,42,0.1); }
 .ve-partner-card img { height:80px; width:auto; max-width:100%; object-fit:contain; margin-bottom:14px; }
 .ve-partner-card span { display:block; font-size:13px; font-weight:700; color:var(--ve-dark); }
+
+/* ============================================================
+   RESPONSIVE — CENTRAGE MOBILE
+   ============================================================ */
+
+@media (max-width: 767px) {
+
+    /* -------------------------
+       HERO
+       ------------------------- */
+    .ve-hero-left {
+        padding: 80px 20px 50px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .ve-hero-left h1 {
+        text-align: center;
+    }
+
+    .ve-hero-left p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .ve-hero-btns {
+        justify-content: center;
+    }
+
+    .ve-hero-stats {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    /* -------------------------
+       TITRES DE SECTIONS
+       ------------------------- */
+    .ve-section-header {
+        text-align: center;
+    }
+
+    .ve-section-header h2,
+    .ve-section-header p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ve-section-tag {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* -------------------------
+       ABOUT
+       ------------------------- */
+    .ve-about-text {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .ve-about-text h2,
+    .ve-about-text p {
+        text-align: center;
+    }
+
+    .ve-about-features {
+        align-items: center;
+    }
+
+    .ve-af-item {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ve-about-img-stack {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* -------------------------
+       SERVICES
+       ------------------------- */
+    .ve-service-card {
+        text-align: center;
+    }
+
+    .ve-service-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ve-card-link {
+        justify-content: center;
+    }
+
+
+    /* -------------------------
+       WHY US
+       ------------------------- */
+    .ve-whyus-content {
+        text-align: center;
+    }
+
+    .ve-checklist {
+        align-items: center;
+    }
+
+    .ve-check-item {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    /* -------------------------
+       COUNTERS
+       ------------------------- */
+    .ve-counter-item {
+        text-align: center;
+    }
+
+
+    /* -------------------------
+       TESTIMONIALS
+       ------------------------- */
+    .ve-testi-card {
+        text-align: center;
+    }
+
+    .ve-testi-author {
+        justify-content: center;
+    }
+
+
+    /* -------------------------
+       CTA
+       ------------------------- */
+    .ve-cta-content {
+        text-align: center;
+    }
+
+    .ve-cta-content h2,
+    .ve-cta-content p {
+        text-align: center;
+    }
+
+    .text-lg-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    /* -------------------------
+       NEWSLETTER
+       ------------------------- */
+    .ve-newsletter-wrap {
+        align-items: center;
+        text-align: center;
+    }
+
+    .ve-nl-left {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .ve-nl-form {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ve-nl-form input {
+        width: 100%;
+    }
+
+
+    /* -------------------------
+       PAGE HERO
+       ------------------------- */
+    .ve-page-hero-content {
+        text-align: center;
+    }
+
+    .ve-page-hero-content h1 {
+        text-align: center;
+    }
+
+    .ve-breadcrumb {
+        justify-content: center;
+    }
+
+    .ve-post-meta-hero {
+        justify-content: center;
+    }
+
+
+    /* -------------------------
+       MVV
+       ------------------------- */
+    .ve-mvv-card {
+        text-align: center;
+    }
+
+
+    /* -------------------------
+       CONTACT
+       ------------------------- */
+    .ve-contact-info-card {
+        text-align: center;
+    }
+
+    .ve-contact-form-wrap {
+        text-align: center;
+    }
+
+    .ve-contact-form-wrap h2,
+    .ve-contact-form-wrap > p {
+        text-align: center;
+    }
+
+    .ve-form-group {
+        text-align: left;
+    }
+
+    .ve-contact-aside {
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .ve-ca-box,
+    .ve-ca-hours,
+    .ve-ca-social {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* -------------------------
+       FOOTER
+       ------------------------- */
+    .ve-footer {
+        text-align: center;
+    }
+
+    .ve-footer-brand,
+    .ve-footer-title {
+        text-align: center;
+    }
+
+    .ve-footer-links {
+        text-align: center;
+    }
+
+    .ve-footer-links li a {
+        justify-content: center;
+    }
+
+    .ve-footer-contact {
+        align-items: center;
+    }
+
+    .ve-footer-contact li {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ve-social {
+        justify-content: center;
+    }
+
+    .ve-footer-bottom-inner {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .ve-hero-left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ve-hero-left h1 {
+        font-size: 32px;
+    }
+
+    .ve-hero-left p {
+        font-size: 15px;
+    }
+
+    .ve-hero-btns {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .ve-hero-btns a {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .ve-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ve-section-header h2 {
+        font-size: 30px;
+    }
+
+    .ve-about-text h2,
+    .ve-whyus-content h2 {
+        font-size: 30px;
+    }
+
+    .ve-contact-form-wrap {
+        padding: 22px 18px;
+    }
+
+    .ve-newsletter-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* ============================================================
+   CORRECTION IMAGES MOBILE
+   ============================================================ */
+@media (max-width: 767px) {
+
+    /* Image de la page About */
+    .ve-about-img-stack {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ve-about-img-1 {
+        width: 90%;
+        height: 300px;
+        margin: 0 auto;
+        border-radius: 14px;
+    }
+
+    /* Image Why Us */
+    .ve-whyus-img-wrap {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ve-whyus-img-main {
+        width: 90%;
+        height: 400px;
+        margin: 0 auto;
+        border-radius: 14px;
+    }
+}
+
+

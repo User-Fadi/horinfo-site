@@ -28,9 +28,11 @@
         <div class="ve-hero-left">
             <span class="ve-hero-badge">Solutions digitales depuis<span class="an"> 1999 </span></span>
             <h1>Tansformez vos idées en <br><span class="ve-highlight">réalité numérique</span></h1>
-            <p>Solutios logiciellles sur mesure, plateformes web innovantes et stratégie digitale pour propulser votre entreprise. Expertise africaine, stanqarts internationaux.</p>
+            <p>Solutions logicielles sur mesure, plateformes web innovantes et stratégie digitale pour propulser votre entreprise. Expertise africaine, stanqarts internationaux.</p>
             <div class="ve-hero-btns">
-                <a href="{{ route('services') }}" class="ve-btn-primary">Prendre rendez-vous</a>
+                <a href="#" class="ve-btn-primary" data-toggle="modal" data-target="#contactModal">
+                    Prendre rendez-vous
+                </a>
                 <a href="{{ route('about') }}" class="ve-btn-ghost">Découvrir nos services</a>
             </div>
             <!-- Quick Stats Row -->
@@ -303,6 +305,92 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7794.971129965007!2d-1.4884694!3d12.3503733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ebf3fb567f817%3A0x2ae84c5d4e53f656!2sHORINFO!5e0!3m2!1sfr!2sbf!4v1789729238267!5m2!1sfr!2sbf" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
     </section>
+
+    <!-- MODAL PRENDRE RENDEZ-VOUS -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog"
+     aria-labelledby="contactModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <div>
+                    <span class="ve-section-tag">CONTACTEZ-NOUS</span>
+
+                    
+                </div>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+                <form class="ve-contact-form" action="#" method="post">
+
+                    <div class="ve-form-row">
+
+                        <div class="ve-form-group">
+                            <label>Nom complet</label>
+                            <input type="text"
+                                   placeholder="Votre nom complet"
+                                   required>
+                        </div>
+
+                        <div class="ve-form-group">
+                            <label>Adresse email</label>
+                            <input type="email"
+                                   placeholder="Votre email"
+                                   required>
+                        </div>
+
+                    </div>
+
+                    <div class="ve-form-row">
+
+                        <div class="ve-form-group">
+                            <label>Numéro de téléphone</label>
+                            <input type="tel"
+                                   placeholder="Votre téléphone">
+                        </div>
+
+                        <div class="ve-form-group">
+                            <label>Service concerné</label>
+
+                            <select>
+                                <option>Sélectionnez un service</option>
+                                <option>Développement web/mobile</option>
+                                <option>CRM et application métier</option>
+                                <option>Refonte web</option>
+                                <option>Marketing digital</option>
+                                <option>Formations</option>
+                                <option>Audits, études et conseils</option>
+                                <option>Assistance technique</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="ve-form-group">
+                        <label>Votre message</label>
+
+                        <textarea rows="5"
+                                  placeholder="Décrivez votre projet ou besoin..."></textarea>
+                    </div>
+
+                    <button type="submit" class="ve-btn-primary">
+                        Envoyer le message
+                        <i class="fa fa-paper-plane"></i>
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>
 
     @include('partials.footer')
 
